@@ -28,7 +28,7 @@ post {
             if (currentBuild.result == "FAILURE") {
                 echo "Pipeline failed"
             }
-        }
+        
     }
 }
 }
